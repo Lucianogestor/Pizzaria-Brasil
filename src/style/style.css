@@ -1,18 +1,29 @@
 @import url('https://fonts.cdnfonts.com/css/pt-mono');
 @import url('https://fonts.cdnfonts.com/css/aref-ruqaa');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Rubik+Doodle+Shadow&family=Vast+Shadow&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: yellow;
+  border-color: green;  
+}
+
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #009c3b;
+    background-image: linear-gradient(to right, green, yellow);
     border: 10px solid #ffdf00;
+    padding-top: 40px;
 }
 
 main {
@@ -28,6 +39,8 @@ span {
     align-items: center;
     gap: 30px;
 }
+
+
 
 p {
     font-size: 18px;
@@ -63,7 +76,7 @@ p {
 .text-decoration {
     color: black;
     font-size: 18px;
-}
+    }
 
 .hero-wrapper {
     display: flex;
@@ -74,15 +87,24 @@ p {
 .hero-wrapper > img {
     width: 200px;
     height: 200px;
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .hero-wrapper > h1 {
     font-size: 200px;
+    border-radius: 600px;
+    border-color: whitesmoke;
+    border-style: outset;
 }
 
 main > img {
     width: 600px;
     height: 700px;
+    border-radius: 600px;
+    border-color: whitesmoke;
+    border-style: outset;
 }
 
 section {
@@ -90,6 +112,7 @@ section {
     width: 1000px;
     margin-bottom: 100px;
     gap: 60px;
+    margin-top: 100px;
 }
 
 .title-section {
