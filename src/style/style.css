@@ -90,13 +90,14 @@ p {
     font-family: "Rubik Doodle Shadow", system-ui;
     font-weight: 400;
     font-style: normal;
+    border-radius: 600px;
+    border-color: whitesmoke;
+    border-style: outset;
 }
 
 .hero-wrapper > h1 {
     font-size: 200px;
-    border-radius: 600px;
-    border-color: whitesmoke;
-    border-style: outset;
+    
 }
 
 main > img {
@@ -165,6 +166,11 @@ li {
     padding-left: 50px;
     justify-content: space-between;
 }
+.main-menu > img{
+    border-radius: 600px;
+    border-color: whitesmoke;
+    border-style: outset;
+}
 
 menu {
     display: flex;
@@ -228,6 +234,7 @@ input {
 textarea {
     border: 3px solid blacç;
     background-color: transparent;
+    border: 3px solid black;
 }
 
 button {
@@ -237,7 +244,7 @@ button {
     border: 3px solid black;
     color: black;
     font-size: 18px;
-    box-shadow: 5px 5px 0px -2px black, 5px 5px 0px black;
+    border: 3px solid black;
 }
 
 label {
@@ -257,7 +264,7 @@ iframe {
 
 map {
     height: 226px;
-    box-shadow: 0px 0px 0px 10px black;
+    border: 3px solid black;
     margin-top: 60px;
 }
 
