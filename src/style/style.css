@@ -155,6 +155,7 @@ li {
     font-family: 'Aref Ruqaa', sans-serif;
     font-size: 18px;
     padding-bottom: 12px;
+    justify-content: space-between;
 }
 
 .main-menu > h3 {
@@ -162,6 +163,7 @@ li {
     font-family: 'Aref Ruqaa', sans-serif;
     padding-bottom: 26px;
     padding-left: 50px;
+    justify-content: space-between;
 }
 
 menu {
